@@ -1,0 +1,19 @@
+{
+  "name": "inspire-nuggets-slack-bot",
+  "description": "Following tutorial from https://www.freecodecamp.org/news/building-a-slackbot-with-node-js-and-slackbots-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sean Baines <mrseanbaines@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
